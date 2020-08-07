@@ -88,9 +88,9 @@ describe('1. All the rules in the instructions should be applied', function () {
     });
     it('The jumbotron should contain an H4, a p and a button ', function () {
         let jumbotron=document.querySelector(".jumbotron").innerHTML
-        expect(jumbotron.toString().indexOf(`<h4`)>-1).toBeTruthy();
-        expect(jumbotron.toString().indexOf(`<p`)>-1).toBeTruthy();
-        expect(jumbotron.toString().indexOf(`<a`)>-1).toBeTruthy();
+        expect(jumbotron.toString().indexOf("<h4")>-1).toBeTruthy();
+        expect(jumbotron.toString().indexOf("<p")>-1).toBeTruthy();
+        expect(jumbotron.toString().indexOf("<a")>-1).toBeTruthy();
     });
     it('The button in the jumbotron should be blue and medium size', function () {
         let rightContent=document.querySelector(".col-10").querySelector(".jumbotron").querySelector("a")

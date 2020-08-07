@@ -149,17 +149,17 @@ describe("3. The RIGHT column should contain all the required elements in the co
         let table=document.querySelector("table").children
         console.log("table:", table[1].children[0].children)
         expect(table.length).toBe(2);
-        expect(table[0].nodeName).toBe("THEAD");
-        expect(table[1].nodeName).toBe("TBODY");
+        expect(table[0].nodeName).toBe("thead");
+        expect(table[1].nodeName).toBe("tbody");
         expect(table[0].children.length).toBe(1);
         expect(table[0].children[0].children.length).toBe(3);
         expect(table[0].children[0].children[0].innerHTML).toBe("Firstname");
         expect(table[0].children[0].children[1].innerHTML).toBe("Lastname");
         expect(table[0].children[0].children[2].innerHTML).toBe("Email");
         expect(table[1].children.length).toBe(3);
-        expect(table[1].children[0].nodeName).toBe("TR");
-        expect(table[1].children[1].nodeName).toBe("TR");
-        expect(table[1].children[2].nodeName).toBe("TR");
+        expect(table[1].children[0].nodeName).toBe("tr");
+        expect(table[1].children[1].nodeName).toBe("tr");
+        expect(table[1].children[2].nodeName).toBe("tr");
         expect(table[1].children[0].children.length).toBe(3);
         expect(table[1].children[0].children.length).toBe(3);
         expect(table[1].children[1].children.length).toBe(3);

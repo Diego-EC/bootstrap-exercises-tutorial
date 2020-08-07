@@ -59,8 +59,8 @@ describe('1. All the rules in the instructions should be applied', function () {
         let divContent=document.getElementsByTagName("div")[0].innerHTML
         // we can read from the source code
         // console.log(html.toString());
-        expect(divContent.toString().indexOf(`<h1>This is my first example using bootstrap</h1>`)>-1).toBeTruthy();
-        expect(divContent.toString().indexOf(`<p>I can't believe that bootstap is so easy, now HTML and CSS are a simple but very usefull technology.</p>`)>-1).toBeTruthy();
+        expect(divContent.toString().indexOf("<h1>This is my first example using bootstrap</h1>")>-1).toBeTruthy();
+        expect(divContent.toString().indexOf("<p>I can't believe that bootstap is so easy, now HTML and CSS are a simple but very usefull technology.</p>")>-1).toBeTruthy();
     });
     it('The div tag should contain the class container-fluid', function () {
 
