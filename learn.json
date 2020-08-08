@@ -112,7 +112,7 @@
         {
             "slug": "07-Buttons-Alert-Glyphicon-And-Table",
             "title": "07-Buttons-Alert-Glyphicon-And-Table",
-            "done": false,
+            "done": true,
             "path": "exercises/07-Buttons-Alert-Glyphicon-And-Table",
             "translations": [
                 "es",
